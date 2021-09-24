@@ -10,9 +10,14 @@ public class Chevy {
     private boolean luxury;
     private boolean WD;
     private boolean sports;
+
+   //constants
     final String VEHICLE = "Chevrolet";
     final double TAX_RATE = 12.2;
-    final 
+    final double LUX_PACK = 1.2;
+    final int WD_PACK = 3500;
+    final double SPORTS_PACK_P = 1.15;
+    final double SPORTS_PACK_FE = -0.2;
 
 
 //Default constructor
@@ -112,6 +117,12 @@ public class Chevy {
         this.sports = sports;
     }
 
+    //compare to method (return a num)
+
+    //equals method
+    public boolean equals(){
+
+    }
 
 
 
