@@ -161,7 +161,7 @@ public class Chevy {
 
     //compareTo method
     public int compareTo(Chevy other){
-        
+
     }
 
 
