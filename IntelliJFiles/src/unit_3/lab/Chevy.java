@@ -13,11 +13,11 @@ public class Chevy {
 
    //constants
     final String VEHICLE = "Chevrolet";
-    final double TAX_RATE = 12.2;
-    final double LUX_PACK = 1.2;
+    final double TAX_RATE = 0.112;
+    final double LUX_PACK = 0.2;
     final int WD_PACK = 3500;
-    final double SPORTS_PACK_P = 1.15;
-    final double SPORTS_PACK_FE = -0.2;
+    final double SPORTS_PACK_P = 0.15;
+    final double SPORTS_PACK_FE = 0.2;
 
 
 //Default constructor
@@ -120,11 +120,50 @@ public class Chevy {
     //compare to method (return a num)
 
     //equals method
-    public boolean equals(){
+    public int compareTo(Chevy other){
+        if(this.price > other.price){
+            return (this.price - other.price);
+        }else{
+            if(other.price > this.price){
+                return(other.price - this.price);
+            }
+        }else{
+            return 0;
+        }
 
+    }
+
+    //equals method
+    public boolean equals(Chevy other){
+        return(this.model.equals(other.model) && this.color.equals(other.color)
+                && this.mileage >= 200 && other.mileage >=200 || this.mileage < 200 && other.mileage < 200);
+        }
+
+     // toString method
+    public String toString(){
+       String out = year + "Chevrolet" + model + " " + "(" + color + ")";
+
+       out +=  "\n\t PRICE: \t\t" + price;
+       out +=  "\n\t MILES: \t\t" + mileage;
+       out +=  "\n\t FUEL EFFICIENCY \t\t" + fuelE;
+       out +=  "\n\t PACKAGES: \n\t"
+
+         if (this.luxury == true) {
+            return ("- Luxury Package\n");
+        }
+        if (this.WD == true) {
+            return ("- 4WD Package\n");
+        }
+        if (this.sports == true) {
+            return ("-  Sports Package");
+        }
     }
 
 
 
 
+
+
+
 }
+
