@@ -160,9 +160,7 @@ public class Chevy {
 
 //compareTo method
 
-
-
-
+    
 
 }
 
