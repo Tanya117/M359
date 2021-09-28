@@ -118,8 +118,6 @@ public class Chevy {
     }
 
     //compare to method (return a num)
-
-    //equals method
     public int compareTo(Chevy other){
         if(this.price > other.price){
             return (this.price - other.price);
@@ -160,6 +158,7 @@ public class Chevy {
     }
 
 
+//compareTo method
 
 
 
