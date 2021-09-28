@@ -12,9 +12,12 @@ public class ChevyDriverStudent
 
         // *** UTILIZE SETTER METHODS TO COMPLETE THE FOLLOWING: ***
         // Set traxBase mileage to 15
+        traxBase.setMileage(15);
 
         // Set traxLux mileage to 175 with both a luxury and 4WD package
-
+        traxLux.setMileage(175);
+        traxLux.setLuxury(true);
+        traxLux.setWD(true);
 
 
 
@@ -42,9 +45,9 @@ public class ChevyDriverStudent
         System.out.print("\tStatus:\t");
 
         // *** COMPLETE THE FOLLOWING DECISION STATEMENTS ***
-        if (_________________________________)
+        if (traxBase.equals(traxLux)){
             System.out.println("Same car");
-        else
+        }else {
             System.out.println("Not same car");
+        }
     }
-}
