@@ -1,7 +1,6 @@
 package unit_3.lab;
 
-public class ChevyDriverStudent
-{
+public class ChevyDriverStudent {
     public static void main(String[] args)
     {
         // Create objects
@@ -32,9 +31,9 @@ public class ChevyDriverStudent
         System.out.print("\tLowest price:\t");
 
         // *** COMPLETE THE FOLLOWING DECISION STATEMENTS ***
-        if (_________________________________)
+        if (corvetteClassic.getPrice() < corvetteSport.getPrice())
             System.out.println("Classic Corvette at $" + corvetteClassic.getPrice());
-        else if (_________________________________)
+        else if (corvetteClassic.getPrice() > corvetteSport.getPrice())
             System.out.println("Sport Corvette at $" + corvetteSport.getPrice());
         else
             System.out.println("Tie at $" + corvetteClassic.getPrice());
@@ -45,9 +44,9 @@ public class ChevyDriverStudent
         System.out.print("\tStatus:\t");
 
         // *** COMPLETE THE FOLLOWING DECISION STATEMENTS ***
-        if (traxBase.equals(traxLux)){
+        if (traxBase.equals(traxLux))
             System.out.println("Same car");
-        }else {
+        else
             System.out.println("Not same car");
-        }
+
     }

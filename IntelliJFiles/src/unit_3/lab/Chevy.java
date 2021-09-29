@@ -176,7 +176,7 @@ public class Chevy {
             double fuelE = newFuelFE;
         }
 
-        double finalPrice = price * TAX_RATE;
+        double finalPrice = price + price * TAX_RATE;
         return finalPrice;
     }
 
