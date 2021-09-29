@@ -121,15 +121,12 @@ public class Chevy {
     public int compareTo(Chevy other){
         if(this.price > other.price){
             return (this.price - other.price);
-        }else{
-            if(other.price > this.price){
-                return(other.price - this.price);
+        }else if(other.price > this.price){
+            return(other.price - this.price);
             }
-        }else{
             return 0;
         }
 
-    }
 
     //equals method
     public boolean equals(Chevy other){
@@ -144,17 +141,18 @@ public class Chevy {
        out +=  "\n\t PRICE: \t\t" + price;
        out +=  "\n\t MILES: \t\t" + mileage;
        out +=  "\n\t FUEL EFFICIENCY \t\t" + fuelE;
-       out +=  "\n\t PACKAGES: \n\t"
+       out +=  "\n\t PACKAGES: \n\t";
 
          if (this.luxury == true) {
-            return ("- Luxury Package\n");
+            out += ("\t- Luxury Package\n");
         }
         if (this.WD == true) {
-            return ("- 4WD Package\n");
+            out += ("\t\t- 4WD Package\n");
         }
         if (this.sports == true) {
-            return ("-  Sports Package");
+            out+= ("\t\t-  Sports Package");
         }
+        return out;
     }
 
     //calcPrice method
