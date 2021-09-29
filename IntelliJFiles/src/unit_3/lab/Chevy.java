@@ -13,10 +13,10 @@ public class Chevy {
 
    //constants
     final String VEHICLE = "Chevrolet";
-    final double TAX_RATE = 0.112;
-    final double LUX_PACK = 0.2;
+    final double TAX_RATE = 1.12;
+    final double LUX_PACK = 1.2;
     final int WD_PACK = 3500;
-    final double SPORTS_PACK_P = 0.15;
+    final double SPORTS_PACK_P = 1.15;
     final double SPORTS_PACK_FE = 0.2;
 
 
@@ -157,8 +157,28 @@ public class Chevy {
         }
     }
 
+    //calcPrice method
+    public double calcPrice(Chevy other){
+        double newPrice = price * LUX_PACK;
+        if(luxury){
+            double price = newPrice;
+        }
 
-//compareTo method
+        double newPrice2 = price + WD_PACK;
+        if(WD){
+            double price = newPrice2;
+        }
+
+        double newPrice3 = price * SPORTS_PACK_P ;
+        double newFuelFE = fuelE - (fuelE * SPORTS_PACK_FE);
+        if(sports){
+            double price = newPrice3;
+            double fuelE = newFuelFE;
+        }
+
+        double finalPrice = price * TAX_RATE;
+        return finalPrice;
+    }
 
     
 
