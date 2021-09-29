@@ -1,8 +1,7 @@
 package unit_3.lab;
 
 public class ChevyDriverStudent {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         // Create objects
         Chevy traxBase = new Chevy();
         Chevy traxLux = new Chevy();
@@ -17,7 +16,6 @@ public class ChevyDriverStudent {
         traxLux.setMileage(175);
         traxLux.setLuxury(true);
         traxLux.setWD(true);
-
 
 
         // Printouts
@@ -50,3 +48,4 @@ public class ChevyDriverStudent {
             System.out.println("Not same car");
 
     }
+}
