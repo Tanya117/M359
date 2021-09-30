@@ -14,7 +14,7 @@ public class IceCream {
 
         // two IceCream objects are equal if ALL variables are the same
         public boolean equals(IceCream other) {
-            if(this.flavor.equals(other.flavor)) && (this.numScoops == other.numScoops) && (this.inCone == other.inCone)
+            if(this.flavor.equals(other.flavor) && (this.numScoops == other.numScoops) && (this.inCone == other.inCone))
             {
                 return true;
             }else{
