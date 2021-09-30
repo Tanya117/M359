@@ -13,10 +13,10 @@ public class Chevy {
 
    //constants
     final String VEHICLE = "Chevrolet";
-    final double TAX_RATE = 1.12;
-    final double LUX_PACK = 1.2;
+    final double TAX_RATE = .122;
+    final double LUX_PACK = .2;
     final int WD_PACK = 3500;
-    final double SPORTS_PACK_P = 1.15;
+    final double SPORTS_PACK_P = .15;
     final double SPORTS_PACK_FE = 0.2;
 
 
@@ -25,7 +25,7 @@ public class Chevy {
         year = 2021;
         mileage = 0;
         fuelE = 35;
-        price = 1600;
+        price = 16000;
         model = "Trax";
         color = "white";
         luxury = false;
@@ -42,6 +42,7 @@ public class Chevy {
         luxury = isLuxury;
         WD = isWD;
         sports = isSport;
+        this.price = price;
     }
 
 //Getters and Setters
@@ -118,13 +119,14 @@ public class Chevy {
     }
 
     //compare to method (return a num)
+    //this.compareTo(other)
     public int compareTo(Chevy other){
-        if(this.price > other.price){
-            return (this.price - other.price);
-        }else if(other.price > this.price){
-            return(other.price - this.price);
+        if(this.price < other.price){
+            return -1;
+        }else if(this.price > other.price){
+            return 1;
             }
-            return 0;
+        return 0;
     }
 
 
@@ -138,8 +140,8 @@ public class Chevy {
     public String toString(){
        String out = year + "Chevrolet" + model + " " + "(" + color + ")";
 
-       out +=  "\n\t PRICE: \t\t" + price;
-       out +=  "\n\t MILES: \t\t" + mileage;
+       out +=  "\n\t PRICE: \t\t\t\t$" + this.calcPrice();
+       out +=  "\n\t MILES: \t\t\t\t" + mileage;
        out +=  "\n\t FUEL EFFICIENCY \t\t" + fuelE;
        out +=  "\n\t PACKAGES: \n\t";
 
@@ -156,26 +158,22 @@ public class Chevy {
     }
 
     //calcPrice method
-    public double calcPrice(Chevy other){
-        double newPrice = price * LUX_PACK;
+    public double calcPrice(){
+        double basePrice = price;
         if(luxury){
-            double price = newPrice;
+            price += basePrice * LUX_PACK;
         }
 
-        double newPrice2 = price + WD_PACK;
         if(WD){
-            double price = newPrice2;
+            price += WD_PACK;
         }
 
-        double newPrice3 = price * SPORTS_PACK_P ;
-        double newFuelFE = fuelE - (fuelE * SPORTS_PACK_FE);
         if(sports){
-            double price = newPrice3;
-            double fuelE = newFuelFE;
+            price += basePrice * SPORTS_PACK_P;
+            fuelE -= fuelE * SPORTS_PACK_FE;
         }
 
-        double finalPrice = price + price * TAX_RATE;
-        return finalPrice;
+        return price + (price * TAX_RATE);
     }
 
     
