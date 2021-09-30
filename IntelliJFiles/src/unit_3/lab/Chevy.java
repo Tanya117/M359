@@ -125,7 +125,7 @@ public class Chevy {
             return(other.price - this.price);
             }
             return 0;
-        }
+    }
 
 
     //equals method
