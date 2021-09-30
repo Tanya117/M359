@@ -42,10 +42,10 @@ public class ChevyDriverStudent {
         System.out.print("\tStatus:\t");
 
         // *** COMPLETE THE FOLLOWING DECISION STATEMENTS ***
-        if (traxBase.equals(traxLux))
-            System.out.println("Same car");
-        else
-            System.out.println("Not same car");
+//        if (traxBase.equals(traxLux))
+//            System.out.println("Same car");
+//        else
+//            System.out.println("Not same car");
 
     }
 }
