@@ -38,7 +38,7 @@ public class PigLatin {
        // }
 
         }
-
+//caps helper method called ^^
 
 
         public static String toPigLatin(String phrase) {
