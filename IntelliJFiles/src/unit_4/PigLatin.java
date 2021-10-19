@@ -3,7 +3,7 @@ package unit_4;
 public class PigLatin {
 
         public static String translateWordToPigLatin (String w){
-            w = "";
+
             if (w.substring(0,1).equalsIgnoreCase("a")
                     || w.substring(0,1).equalsIgnoreCase("e")
                     || w.substring(0,1).equalsIgnoreCase("i")
@@ -41,12 +41,12 @@ public class PigLatin {
 
 
         public static String toPigLatin(String phrase) {
-        String pigPhrase = " ";
-        String str = phrase.substring(0,phrase.indexOf(" "));
-        while(phrase.indexOf(" ") > 0 ){ pigPhrase += translateWordToPigLatin(str);
-        phrase = phrase.substring(str.length());
-           }
-        return pigPhrase;
+            String pigPhrase = " ";
+            String str = phrase.substring(0,phrase.indexOf(" "));
+            while(phrase.indexOf(" ") > 0 ){ pigPhrase += translateWordToPigLatin(str);
+            phrase = phrase.substring(str.length());
+               }
+            return pigPhrase;
         }
 
     }
@@ -62,4 +62,4 @@ public class PigLatin {
 
 
 
-}
+
