@@ -3,7 +3,7 @@ package unit_4;
 public class PigLatin {
 
         public static String translateWordToPigLatin (String w) {
-           // while (w.indexOf()){ //while loop runs when there are no spaces
+           //while (w.indexOf(" "){ //while loop runs when there are no spaces
             if (w.substring(0, 1).equalsIgnoreCase("a")
                     || w.substring(0, 1).equalsIgnoreCase("e")
                     || w.substring(0, 1).equalsIgnoreCase("i")
