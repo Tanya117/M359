@@ -29,7 +29,7 @@ public class PigLatin {
             }
         }
 
-        public static String toPigLatin(String phrase) {
+        public static String toPigLatin (String phrase) {
             String pigPhrase = " ";
 
             while(phrase.indexOf(" ") >= 0){
