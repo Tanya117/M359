@@ -19,7 +19,7 @@ public class MarvelTester {
         System.out.println("Name:" + hulk.getName());
         System.out.println("Power:" );
         System.out.println("\tName:" + hulk.getSuperPower().getName());
-        
+
     }
 
 }
