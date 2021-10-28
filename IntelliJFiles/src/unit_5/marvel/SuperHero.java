@@ -14,6 +14,14 @@ public class SuperHero {
         this.health=1000;
     }
 
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
     /**
      * This function prints out a superhero object in an organized matter
      * @return: returns output sentence for superHero

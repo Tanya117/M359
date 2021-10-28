@@ -23,18 +23,40 @@ public class MarvelTester {
 
 
         //Battle between Loki and Hulk
-        //Set up if else else if statements comparing Loki and Hulk's power strength
-        if(Loki.getSuperPower().getStrength()> hulk.getSuperPower().getStrength()){
-            System.out.println("Loki wins");
-        }else if(Loki.getSuperPower().getStrength()< hulk.getSuperPower().getStrength()){
-            System.out.println("hulk wins");
-        }else{
-            System.out.println("tie");
-        }
+        MarvelTester.battle(hulk, Loki);
 
-        public static void battle(SuperHero goodGuy, Villain badGuy){
+
+
+
+
+        public static void battle (SuperHero SuperHero goodGuy;
+        goodGuy, Villain SuperHero badGuy;
+        badGuy){
+          while (goodGuy.health() != 0 && badGuy.health()){
+
             boolean heroHit = Math.random() < 0.5; // [0,0.5) is a hit
             boolean villainHit = Math.random() < 0.5;// [0,0.5) is a hit
+
+              if(heroHit){
+                  badGuy.setHealth(badGuy.getHealth()- goodGuy.getSuperPower().getStrength());
+                  if(badGuy.getHealth() < 0){
+                      badGuy.setHealth(0);
+                  }
+              }
+              if(villainHit){
+                  goodGuy.setHealth(goodGuy.getHealth()-badGuy.getSuperPower().getStrength());
+                  if(goodGuy.getHealth() < 0){
+                      goodGuy.setHealth(0);
+                  }
+              }
+        }
+          if(badGuy.getHealth()==0){
+              System.out.println("SuperHero won");
+
+          }else{
+              System.out.println("Villain won");
+          }
     }
 
 }
+
