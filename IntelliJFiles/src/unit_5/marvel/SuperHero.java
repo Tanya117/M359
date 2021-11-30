@@ -1,10 +1,16 @@
 package unit_5.marvel;
 
+import java.sql.SQLOutput;
+
 public class SuperHero {
     //Instance Variables
     private String name;
     private Power superPower;
     private int health;
+
+//Static variables
+    private static int totalNumHeroes=0;
+    private static int totalHeroHealth=0;
 
 
     //Full constructor
@@ -12,6 +18,10 @@ public class SuperHero {
         this.name = name;
         this.superPower = superPower;
         this.health=1000;
+        totalNumHeroes++;
+        System.out.println("Total num superheroes:" +totalNumHeroes);
+        totalHeroHealth += 1000;
+        System.out.println("Total hero health:" + totalHeroHealth);
     }
 
     public int getHealth() {

@@ -1,3 +1,4 @@
+
 package unit_5.marvel;
 
 import java.sql.SQLOutput;
@@ -5,14 +6,14 @@ import java.sql.SQLOutput;
 public class MarvelTester {
     public static void  main(String[] args){
         //Create Power object
-        Power superStrength = new Power (name "Super Strength", strength: 100);
+        Power superStrength = new Power ("Super Strength",100);
         //Create superHero object
-        SuperHero hulk = new SuperHero( name: "The Hulk", superStrength);
+        SuperHero hulk = new SuperHero( "The Hulk", superStrength);
         //Create Villian object
-        Villain Loki = new Villain(name: "Loki", new Power(name:"Magic", strength: 140);
+        Villain Loki = new Villain("Loki", new Power("Magic", 140);
 
         //Create Second SuperHero object
-        SuperHero superman = new SuperHero(name:"Superman", superStrength);
+        SuperHero superman = new SuperHero("Superman", superStrength);
 
 
 
@@ -59,4 +60,5 @@ public class MarvelTester {
     }
 
 }
+
 
