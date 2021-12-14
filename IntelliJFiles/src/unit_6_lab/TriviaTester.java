@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class TriviaTester {
     public static void main(String[] args) throws FileNotFoundException {
+        System.out.println();
+
         File questions = new File("Trivia.txt");
         Scanner inF = new Scanner(questions);
         String q = inF.nextLine();
