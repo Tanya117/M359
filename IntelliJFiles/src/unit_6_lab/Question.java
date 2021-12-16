@@ -10,8 +10,10 @@ public class Question {
     private String correctAnswer;
     private int points;
 
+
     //constructor
-    public Question(String question,String answer1, String answer2, String answer3, String answer4){
+
+    public Question(String question,String answer1, String answer2, String answer3, String answer4, String correctAnswer, int points){
         this.question=question;
         this.answer1=answer1;
         this.answer2=answer2;
@@ -21,13 +23,17 @@ public class Question {
         this.points=points;
     }
 
+
+    /**
+     * @return  formatted String of the qs and answers
+     */
     //toString
     public String toString(){
         String out= question;
-        out+= "\n" + answer1;
-        out+= "\n" + answer2;
-        out+= "\n" + answer3;
-        out+= "\n" + answer4;
+        out+= "\nA. " + answer1;
+        out+= "\nB. " + answer2;
+        out+= "\nC. " + answer3;
+        out+= "\nD. " + answer4;
         return out;
 
     }
@@ -89,6 +95,29 @@ public class Question {
 
     public void setPoints(int points) {
         this.points = points;
+    }
+
+    public static boolean newQuestion(Question question, Question[] arr){
+        boolean val = true;
+        for(int i = 0; i<arr.length; i++){
+            if(arr[i] != null && arr[i].equalsQuestion(question)){
+                val = false;
+            }
+        }
+        return val;
+    }
+    public boolean equalsQuestion(Question other){
+        if(this.question.equalsIgnoreCase(other.getQuestion()) &&
+                this.question.equalsIgnoreCase(other.getQuestion()) &&
+                this.answer1.equalsIgnoreCase(other.getAnswer1()) &&
+                this.answer2.equalsIgnoreCase(other.getAnswer2()) &&
+                this.answer3.equalsIgnoreCase(other.getAnswer3()) &&
+                this.answer4.equalsIgnoreCase(other.getAnswer4()) &&
+                this.correctAnswer.equalsIgnoreCase(other.getCorrectAnswer()) &&
+                this.points == other.getPoints()){
+            return true;
+        }
+        return false;
     }
 
 }

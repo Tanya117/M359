@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="086970a0-62c6-4309-b138-173b885cdb07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/unit_5/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit_5/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit_5/TeamA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit_5/TeamB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit_5/TeamHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/.idea/IntelliJFiles.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_3/in_class/review_rating/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_3/lab/Chevy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_3/lab/ChevyDriverStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_3/loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_4/PigLatin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_4/PigLatinTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5/marvel/MarvelTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5/marvel/Power.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5/marvel/SuperHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5/marvel/Villain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5_lab/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5_lab/TeamA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5_lab/TeamB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntelliJFiles/src/unit_5_lab/TeamDriver.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20gu6RGIWjrn2z2uRWQmyW6XF3G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Driver">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_5.Driver" />
+      <module name="Class Files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PigLatinTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_4.PigLatinTester" />
+      <module name="Class Files" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.PigLatinTester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="086970a0-62c6-4309-b138-173b885cdb07" name="Changes" comment="" />
+      <created>1636478379746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636478379746</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
