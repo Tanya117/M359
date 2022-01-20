@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c2400e-490c-45c0-83eb-768edace6a4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IntelliJFiles/src/u/Question.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IntelliJFiles/src/u/Trivia.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IntelliJFiles/src/u/TriviaDriver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IntelliJFiles/src/u/TriviaGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Trivia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Trivia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/TriviaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/TriviaGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit5_library/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit5_library/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit5_library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit5_library/Library.class" afterDir="false" />
@@ -73,13 +68,13 @@
       <recent name="C:\Users\khosla1739\Documents\GitHub\M359\IntelliJFiles\src\unit_3\lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TriviaTester">
-    <configuration name="ChevyDriverStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit_3.lab.ChevyDriverStudent" />
+  <component name="RunManager" selected="Application.TicketMasterDriver">
+    <configuration name="MarvelTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_5.marvel.MarvelTester" />
       <module name="M359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit_3.lab.*" />
+          <option name="PATTERN" value="unit_5.marvel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarvelTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit_5.marvel.MarvelTester" />
+    <configuration name="TicketMasterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_7_lab.TicketMasterDriver" />
       <module name="M359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit_5.marvel.*" />
+          <option name="PATTERN" value="unit_7_lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.TriviaTester" />
         <item itemvalue="Application.TriviaDriver (1)" />
         <item itemvalue="Application.TriviaDriver" />
         <item itemvalue="Application.MarvelTester" />
-        <item itemvalue="Application.ChevyDriverStudent" />
       </list>
     </recent_temporary>
   </component>

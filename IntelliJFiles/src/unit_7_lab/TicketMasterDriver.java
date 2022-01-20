@@ -8,26 +8,23 @@ import java.util.Scanner;
 
 public class TicketMasterDriver {
     public static void main(String[] args) throws FileNotFoundException {
+        Scanner input = new Scanner(System.in);
+
         System.out.println("Welcome");
-        System.out.println();
+        System.out.println("How would you like to sort the tickets?");
 
+        System.out.println("1. Performer A-Z");
+        System.out.println("2. Performer Z-A");
+        System.out.println("3. Price low-high");
+        System.out.println("4. Price high-low");
+        System.out.println("5. city");
+        System.out.println("6. quit");
+
+        String response = input.nextLine();
+        if (response.equalsIgnoreCase("1")) {
+            sortByAz;
+        }
 
     }
-    String a = "1. A-Z";
-    String b = "2. Z-A";
-    String c = "3. low-high";
-    String d = "4. high-low";
-    String e = "5. city";
-    String f = "6. quit";
 
-    public String choices(){
-        String out= "";
-        out+= "\n" + a;
-        out+= "\n" + b;
-        out+= "\n" + c;
-        out+= "\n" + d;
-        out+= "\n" + e;
-        out+= "\n" + f;
-        return out;
-    }
 }

@@ -17,6 +17,7 @@ public class TicketMaster {
         return output;
     }
 
+
     public void makeObject(Scanner inFile) throws FileNotFoundException{
         boolean isDone = false;
         while (!isDone){
@@ -40,6 +41,10 @@ public class TicketMaster {
         }
     }
 
-
+    public static ArrayList<String> sortByAZ (ArrayList<String> list) {
+        ArrayList<String> newList = new ArrayList<>();// make new array to store
+        //code
+        return newList;
+    }
 
 }
