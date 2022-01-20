@@ -1,22 +1,45 @@
 package unit_7_lab;
 
-public class TicketMaster {
-String a = "1. A-Z";
-String b = "2. Z-A";
-String c = "3. low-high";
-String d = "4. high-low";
-String e = "5. city";
-String f = "6. quit";
+import java.util.ArrayList;
+import java.io.File;
+import java.util.Scanner;
+import java.io.FileNotFoundException;
 
-public String choices(){
-    String out= "";
-    out+= "\n" + a;
-    out+= "\n" + b;
-    out+= "\n" + c;
-    out+= "\n" + d;
-    out+= "\n" + e;
-    out+= "\n" + f;
-    return out;
-}
+public class TicketMaster {
+    private ArrayList<Show> concert = new ArrayList<>();
+
+    public TicketMaster(ArrayList<Show> concert) {
+        this.concert = concert;
+    }
+
+    public String toString() {
+        String output = concert.toString();
+        return output;
+    }
+
+    public void makeObject(Scanner inFile) throws FileNotFoundException{
+        boolean isDone = false;
+        while (!isDone){
+            String date = inFile.next();
+            double price = inFile.nextDouble();
+            int quantity = inFile.nextInt();
+
+            String temp = inFile.nextLine();
+            int loc = temp.indexOf(",");
+            String name = temp.substring(0,loc);
+            String city = temp.substring(loc+2);
+
+            Show concert = new Show(date,price, city, name, quantity);
+
+            if(inFile.hasNextLine()) {
+                inFile.nextLine();
+            }
+            else{
+                isDone = true;
+            }
+        }
+    }
+
+
 
 }

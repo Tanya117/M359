@@ -11,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Trivia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/Trivia.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/TriviaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/TriviaGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/TriviaTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_6_lab/TriviaTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit5_library/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit5_library/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit5_library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit5_library/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit_3/in_class/review_rating/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_3/in_class/review_rating/Review.class" afterDir="false" />
@@ -27,9 +27,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit_6/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_6/Course.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit_6/ScheduleTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_6/ScheduleTester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit_6/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_6/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M359/unit_6_lab/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_6_lab/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M359/unit_6_lab/TriviaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_6_lab/TriviaGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M359/unit_6_lab/TriviaTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_6_lab/TriviaTester.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +170,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

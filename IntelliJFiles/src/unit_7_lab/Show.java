@@ -14,13 +14,14 @@ public class Show {
         this.performer = performer;
         this.city = city;
     }
-   /**
-    //toString
-    public String toString(){
 
-
+    public Show(String date, double price, String city, String name, int quantity) {
     }
-*/
+
+    public String toString(){
+    return date + "   $" + price + "    " + quantity + "    " + performer + "    " +  city;
+    }
+
     //getters and setters
 
     public String getDate() {
