@@ -62,7 +62,13 @@ public class Notes_7_4_Examples {
      * @return returns its int value
      */
     public static int findMin(ArrayList<Integer> list) {
-
+    int min = list.get(0);
+    for(int i=1;i< list.size();i++){
+        if(list.get(i)<min){
+            min=list.get(i);
+        }
+    }
+    return min;
     }
 
     /**
@@ -71,7 +77,13 @@ public class Notes_7_4_Examples {
      * @return returns its int value
      */
     public static int findMax(ArrayList<Integer> list) {
-
+        int max = list.get(0);
+        for(int i=1;i< list.size();i++){
+            if(list.get(i)>max){
+                max=list.get(i);
+            }
+        }
+        return max;
     }
 
     /**
@@ -80,7 +92,11 @@ public class Notes_7_4_Examples {
      * @return returns the int value for the sum
      */
     public static int findSum(ArrayList<Integer> list) {
-
+    int sum=0;
+    for(int i=0;i<list.size();i++){
+        sum= sum + list.get(i);
+    }
+    return sum;
     }
 
     /**
@@ -89,7 +105,8 @@ public class Notes_7_4_Examples {
      * @return double average value
      */
     public static double findAverage(ArrayList<Integer> list) {
-
+        int sum=findSum(list);
+        return (double) sum/list.size();
     }
 
     /**
@@ -98,7 +115,12 @@ public class Notes_7_4_Examples {
      * @return true or false if increasing
      */
     public static boolean isIncreasing(ArrayList<Integer> list) {
-
+        for(int i=0;i<list.size()-1;i++){
+            if(list.get(i)>list.get(i+1)){
+                return false;
+            }
+        }
+        return true;
     }
 
     /**
@@ -108,7 +130,14 @@ public class Notes_7_4_Examples {
      * @return true if any values are repeated, false otherwise
      */
     public static boolean hasDuplicates(ArrayList<String> list) {
-
+        for(int i=0; i<list.size();i++){
+             for(int j=i+1;j<list.size();j++){
+                  if(list.get(i).equalsIgnoreCase(list.get(j))){
+                      return true;
+                }
+             }
+        }
+        return false;
     }
 
     /**
@@ -118,7 +147,11 @@ public class Notes_7_4_Examples {
      * @return new ArrayList of Strings in reverse order
      */
     public static ArrayList<String> revArrayList(ArrayList<String> list) {
-
+        ArrayList<String> newList = new ArrayList<>();// make new array to store
+        for(int i=list.size()-1;i>=0;i--){
+            newList.add(list.get(i));
+        }
+        return newList;
     }
 
     /**
@@ -127,7 +160,11 @@ public class Notes_7_4_Examples {
      * @param list
      */
     public static void shiftLeft(ArrayList<String> list) {
-
+        String first= list.get(0);
+        for(int i=0;i<list.size();i++){
+            list.set(i,list.get(i+1));
+        }
+        list.set(list.size()-1,first);
     }
 
 
