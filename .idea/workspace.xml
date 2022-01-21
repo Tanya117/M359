@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469a8a1d-475c-4098-88b9-06b2652e98c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/TicketMasterDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/TicketMasterDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M359/unit_7_lab/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_7_lab/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M359/unit_7_lab/TicketMaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_7_lab/TicketMaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M359/unit_7_lab/TicketMasterDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_7_lab/TicketMasterDriver.class" afterDir="false" />
-    </list>
+    <list default="true" id="f5c2400e-490c-45c0-83eb-768edace6a4a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +31,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -154,9 +146,6 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -164,10 +153,11 @@
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.io.FileNotFoundException" package="java.io" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IntelliJFiles/src/unit_7/BinarySearchExample.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
