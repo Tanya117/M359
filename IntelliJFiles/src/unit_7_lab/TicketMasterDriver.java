@@ -13,6 +13,8 @@ public class TicketMasterDriver {
         TicketMaster ticket = new TicketMaster();
         ticket.makeObject(fileIn);
         Scanner input = new Scanner(System.in);
+        System.out.println("Welcome");
+        System.out.println("How would you like to sort the tickets?");
 
         while(true){
             System.out.println("1. Sort by A-Z\n2. Sort by Z-A\n" +

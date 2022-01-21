@@ -2,27 +2,24 @@ package unit_7_lab;
 
 public class Show {
     private String date;
-    private int price;
+    private double price;
+    private String name;
     private int quantity;
-    private String performer;
     private String city;
 
-    public Show(String date, int price, int quantity, String performer, String city) {
+    public Show(String date, double price, String name, String city, int quantity) {
         this.date = date;
         this.price = price;
-        this.quantity = quantity;
-        this.performer = performer;
+        this.name = name;
         this.city = city;
-    }
-
-    public Show(String date, double price, String city, String name, int quantity) {
+        this.quantity = quantity;
     }
 
     public String toString(){
-    return date + "   $" + price + "    " + quantity + "    " + performer + "    " +  city;
-    }
 
-    //getters and setters
+        return date + "\t$" + price + "\t" + quantity + "\t" + name + "\t" +  city + "\n";
+
+    }
 
     public String getDate() {
         return date;
@@ -32,28 +29,20 @@ public class Show {
         this.date = date;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public String getName() {
+        return name;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public String getPerformer() {
-        return performer;
-    }
-
-    public void setPerformer(String performer) {
-        this.performer = performer;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCity() {
@@ -62,5 +51,13 @@ public class Show {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 }
