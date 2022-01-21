@@ -1,5 +1,6 @@
 package unit_7_lab;
 
+
 import java.util.ArrayList;
 import java.io.File;
 import java.util.Scanner;
@@ -8,18 +9,18 @@ import java.io.FileNotFoundException;
 public class TicketMaster {
     private ArrayList<Show> concert = new ArrayList<>();
 
-    public TicketMaster(ArrayList<Show> concert) {
-        this.concert = concert;
+    public TicketMaster(){
+
     }
 
     public String toString() {
-        String output = concert.toString();
+        String output = concert.toString() + "\n";
         return output;
     }
 
     public void makeObject(Scanner inFile) throws FileNotFoundException{
-        boolean isDone = false;
-        while (!isDone){
+        while (inFile.hasNextLine()){
+
             String date = inFile.next();
             double price = inFile.nextDouble();
             int quantity = inFile.nextInt();
@@ -29,17 +30,10 @@ public class TicketMaster {
             String name = temp.substring(0,loc);
             String city = temp.substring(loc+2);
 
-            Show concert = new Show(date,price, city, name, quantity);
-
-            if(inFile.hasNextLine()) {
-                inFile.nextLine();
-            }
-            else{
-                isDone = true;
-            }
+            Show show = new Show(date, price, city, name, quantity);
+            concert.add(show);
         }
     }
 
-
-
 }
+

@@ -1,33 +1,57 @@
 package unit_7_lab;
 
-import unit_7_lab.Show;
-
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.sql.Array;
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.io.FileNotFoundException;
 
 public class TicketMasterDriver {
-    public static void main(String[] args) throws FileNotFoundException {
-        System.out.println("Welcome");
-        System.out.println();
+    public static void main(String[] args) throws FileNotFoundException{
+        File myFile = new File("showData.txt");
+        Scanner fileIn = new Scanner(myFile);
+        TicketMaster ticket = new TicketMaster();
+        ticket.makeObject(fileIn);
+        Scanner input = new Scanner(System.in);
 
-
-    }
-    String a = "1. A-Z";
-    String b = "2. Z-A";
-    String c = "3. low-high";
-    String d = "4. high-low";
-    String e = "5. city";
-    String f = "6. quit";
-
-    public String choices(){
-        String out= "";
-        out+= "\n" + a;
-        out+= "\n" + b;
-        out+= "\n" + c;
-        out+= "\n" + d;
-        out+= "\n" + e;
-        out+= "\n" + f;
-        return out;
+        while(true){
+            System.out.println("1. Sort by A-Z\n2. Sort by Z-A\n" +
+                    "3. Sort by Price(High-Low)\n4. Sort by Price(Low-High)\n" +
+                    "5. Sort by Arena\n6. Quit ");
+            String choice = input.nextLine();
+            if(choice.equals("1")){
+                System.out.print(ticket);
+            }
+            else if(choice.equals("2")){
+                System.out.print(ticket);
+            }
+            else if(choice.equals("3")){
+                System.out.print(ticket);
+            }
+            else if(choice.equals("4")){
+                System.out.print(ticket);
+            }
+            else if(choice.equals("5")){
+                System.out.print(ticket);
+            }
+            else if(choice.equals("6")){
+                break;
+            }
+            else{
+                System.out.println("Enter valid option");
+            }
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
