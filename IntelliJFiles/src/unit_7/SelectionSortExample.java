@@ -15,7 +15,7 @@ public class SelectionSortExample {
     }
 
     public static int[] selectionSortLH(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {//controls the index to get smallest value
+        for (int i = 0; i < nums.length-1; i++) {//controls the index to get smallest value
             int minIndex = i;
             for (int j = i + 1; j < nums.length; j++) {//iterates over all remaining indices after i
                 if (nums[j] < nums[minIndex]) {//test to find smaller value
