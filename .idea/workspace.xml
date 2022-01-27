@@ -47,13 +47,13 @@
       <recent name="C:\Users\khosla1739\Documents\GitHub\M359\IntelliJFiles\src\unit_3\lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicketMasterDriver">
-    <configuration name="MarvelTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit_5.marvel.MarvelTester" />
+  <component name="RunManager" selected="Application.SelectionSortExample">
+    <configuration name="SelectionSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_7.SelectionSortExample" />
       <module name="M359" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit_5.marvel.*" />
+          <option name="PATTERN" value="unit_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSortExample" />
         <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.TriviaTester" />
         <item itemvalue="Application.TriviaDriver (1)" />
         <item itemvalue="Application.TriviaDriver" />
-        <item itemvalue="Application.MarvelTester" />
       </list>
     </recent_temporary>
   </component>
@@ -153,11 +153,6 @@
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/IntelliJFiles/src/unit_7/BinarySearchExample.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
