@@ -47,7 +47,20 @@
       <recent name="C:\Users\khosla1739\Documents\GitHub\M359\IntelliJFiles\src\unit_3\lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSortExample">
+  <component name="RunManager" selected="Application.InsertionSortExample">
+    <configuration name="InsertionSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_7.InsertionSortExample" />
+      <module name="M359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unit_7.SelectionSortExample" />
       <module name="M359" />
@@ -87,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriviaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit_lab.TriviaDriver" />
-      <module name="M359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unit_lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TriviaTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unit_6_lab.TriviaTester" />
       <module name="M359" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSortExample" />
+        <item itemvalue="Application.InsertionSortExample" />
         <item itemvalue="Application.TicketMasterDriver" />
+        <item itemvalue="Application.SelectionSortExample" />
         <item itemvalue="Application.TriviaTester" />
         <item itemvalue="Application.TriviaDriver (1)" />
-        <item itemvalue="Application.TriviaDriver" />
       </list>
     </recent_temporary>
   </component>
