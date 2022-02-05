@@ -1,6 +1,7 @@
 package unit_7_lab;
 
 
+
 import java.util.ArrayList;
 import java.io.File;
 import java.util.Scanner;
@@ -14,8 +15,14 @@ public class TicketMaster {
     }
 
     public String toString() {
-        String output = concert.toString() + "\n";
+        String output = "";
+        for(Show i: concert){
+            output += concert.toString();
+        }
         return output;
+    }
+    public ArrayList<Show> getConcert(){
+        return concert;
     }
 
     public void makeObject(Scanner inFile) throws FileNotFoundException{
@@ -27,13 +34,74 @@ public class TicketMaster {
 
             String temp = inFile.nextLine();
             int loc = temp.indexOf(",");
-            String name = temp.substring(0,loc);
-            String city = temp.substring(loc+2);
+            String city = temp.substring(0,loc);
+            String name = temp.substring(loc+2);
 
             Show show = new Show(date, price, city, name, quantity);
             concert.add(show);
         }
     }
+    public void sortAtoZ(ArrayList<Show> arr){
+        for(int i = 0; i<arr.size()-1; i++){
+            int minIndex = i;
+            for(int j = i+1; j<arr.size(); j++){
+                if((arr.get(j).getName().compareTo(arr.get(minIndex).getName())) < 0){
+                    minIndex = j;
+                }
+                Show temp = arr.get(i);
+                arr.set(i, arr.get(minIndex));
+                arr.set(minIndex, temp);
+            }
+        }
+        System.out.println(arr);
+    }
+    public void sortZtoA(ArrayList<Show> arr){
+        for(int i = 0; i<arr.size()-1; i++){
+            int minIndex = i;
+            for(int j = i+1; j<arr.size(); j++){
+                if((arr.get(j).getName().compareToIgnoreCase(arr.get(minIndex).getName())) > 0){
+                    minIndex = j;
+                }
+                Show temp = arr.get(i);
+                arr.set(i, arr.get(minIndex));
+                arr.set(minIndex, temp);
+            }
+        }
+        System.out.println(arr);
+    }
+    public void sortLowtoHigh(ArrayList<Show> arr){
+        for(int i = 1; i< arr.size(); i++){
+            Show valueToInsert = arr.get(i);
+            int position = i;
+            while(position > 0 && valueToInsert.getPrice()< arr.get(position-1).getPrice()){
+                arr.set(position, arr.get(position-1));
+                position--;
+            }
+            arr.set(position, valueToInsert);
+        }
+        System.out.println(arr);
+    }
+    public void sortHightoLow(ArrayList<Show> arr){
+        for(int i = 1; i< arr.size(); i++){
+            Show valueToInsert = arr.get(i);
+            int position = i;
+            while(position > 0 && valueToInsert.getPrice()> arr.get(position-1).getPrice()){
+                arr.set(position, arr.get(position-1));
+                position--;
+            }
+            arr.set(position, valueToInsert);
+        }
+        System.out.println(arr);
+    }
 
+    public ArrayList<Show> searchFor(ArrayList<Show> arr, String input){
+        ArrayList<Show> res = new ArrayList<Show>();
+        for(int i = 0; i< arr.size(); i++){
+            if(arr.get(i).getCity().equals(input)){
+                res.add(arr.get(i));
+            }
+        }
+        return res;
+    }
 }
 

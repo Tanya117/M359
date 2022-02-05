@@ -1,5 +1,6 @@
 package unit_7_lab;
 
+
 public class Show {
     private String date;
     private double price;
@@ -17,7 +18,7 @@ public class Show {
 
     public String toString(){
 
-        return date + "\t$" + price + "\t" + quantity + "\t" + name + "\t" +  city + "\n";
+        return date + "\t$" + price + "\t" + quantity + "\t" + city + "\t" +  name +"\n";
 
     }
 
@@ -61,3 +62,4 @@ public class Show {
         this.quantity = quantity;
     }
 }
+
