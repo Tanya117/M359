@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c2400e-490c-45c0-83eb-768edace6a4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/TicketMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/TicketMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/TicketMasterDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJFiles/src/unit_7_lab/TicketMasterDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/M359/unit_7_lab/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M359/unit_7_lab/Show.class" afterDir="false" />

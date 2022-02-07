@@ -95,13 +95,13 @@ public class TicketMaster {
     }
 
     public ArrayList<Show> searchFor(ArrayList<Show> arr, String input){
-        ArrayList<Show> res = new ArrayList<Show>();
+        ArrayList<Show> n = new ArrayList<Show>();
         for(int i = 0; i< arr.size(); i++){
             if(arr.get(i).getCity().equals(input)){
-                res.add(arr.get(i));
+                n.add(arr.get(i));
             }
         }
-        return res;
+        return n;
     }
 }
 
