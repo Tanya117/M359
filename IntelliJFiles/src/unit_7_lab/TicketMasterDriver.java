@@ -46,6 +46,7 @@ public class TicketMasterDriver {
                 System.out.println(ticket.searchFor(ticket.getConcert(), val));
             }
             else if(choice.equals("6")){
+                System.out.println("Thank you.");
                 break;
             }
             else{
