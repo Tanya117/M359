@@ -28,7 +28,7 @@ public class TicketMasterDriver {
         Scanner input = new Scanner(System.in);
         while(true){
             int choice= getInput(input);
-//            if(choice.equals(TEMP_CONSTANT)){
+//            if(choice.equals(TEMP_CONSTANT)){//switch to compare to ints and uncomment
 //                System.out.println("Sorted by Name (A-Z)");
 //                ticket.sortAtoZ(ticket.getConcert());
 //                System.out.println(ticket);
