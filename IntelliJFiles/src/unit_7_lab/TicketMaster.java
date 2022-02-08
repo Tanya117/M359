@@ -97,7 +97,7 @@ public class TicketMaster {
     public ArrayList<Show> searchFor(ArrayList<Show> arr, String input){
         ArrayList<Show> n = new ArrayList<Show>();
         for(int i = 0; i< arr.size(); i++){
-            if(arr.get(i).getCity().equals(input)){
+            if(arr.get(i).getCity().equalsIgnoreCase(input)){
                 n.add(arr.get(i));
             }
         }

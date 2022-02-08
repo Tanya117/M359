@@ -8,6 +8,13 @@ import java.io.FileNotFoundException;
 
 
 public class TicketMasterDriver {
+    final int c1 = 1;
+    final int c2 = 2;
+    final int c3 = 3;
+    final int c4 = 4;
+    final int c5 = 5;
+    final int c6 = 6;
+
     public static void main(String[] args) throws FileNotFoundException{
         System.out.println(" ");
         System.out.println("***** Welcome to the Ticket Master Kiosk *****");
@@ -50,7 +57,7 @@ public class TicketMasterDriver {
                 break;
             }
             else{
-                System.out.println("Enter valid option");
+                System.out.println(" Please enter a valid option\n");
             }
         }
     }
