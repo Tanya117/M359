@@ -16,8 +16,9 @@ public class TicketMaster {
 
     public String toString() {
         String output = "";
+
         for(Show i: concert){
-            output += concert.toString();
+            output += i+"\n";
         }
         return output;
     }
@@ -53,7 +54,6 @@ public class TicketMaster {
                 arr.set(minIndex, temp);
             }
         }
-        System.out.println(arr);
     }
     public void sortZtoA(ArrayList<Show> arr){
         for(int i = 0; i<arr.size()-1; i++){
@@ -67,7 +67,6 @@ public class TicketMaster {
                 arr.set(minIndex, temp);
             }
         }
-        System.out.println(arr);
     }
     public void sortLowtoHigh(ArrayList<Show> arr){
         for(int i = 1; i< arr.size(); i++){
@@ -79,7 +78,6 @@ public class TicketMaster {
             }
             arr.set(position, valueToInsert);
         }
-        System.out.println(arr);
     }
     public void sortHightoLow(ArrayList<Show> arr){
         for(int i = 1; i< arr.size(); i++){
@@ -91,7 +89,6 @@ public class TicketMaster {
             }
             arr.set(position, valueToInsert);
         }
-        System.out.println(arr);
     }
 
     public ArrayList<Show> searchFor(ArrayList<Show> arr, String input){

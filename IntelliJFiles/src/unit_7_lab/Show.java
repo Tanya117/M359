@@ -18,8 +18,13 @@ public class Show {
 
     public String toString(){
 
-        return date + "\t$" + price + "\t" + quantity + "\t" + city + "\t" +  name +"\n";
-
+        String output= date + "\t$" + price + "\t" + quantity + "\t" + city;
+        int rem= 13 - city.length();
+        for(int i=0; i<rem; i++){
+            output+=" ";
+        }
+        output+=name;
+        return output;
     }
 
     public String getDate() {
