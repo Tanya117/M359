@@ -8,13 +8,13 @@ import java.io.FileNotFoundException;
 
 
 public class TicketMasterDriver {
-    final int C1 = 1;
-    final int c2 = 2;
-    final int c3 = 3;
-    final int c4 = 4;
-    final int c5 = 5;
-    final int c6 = 6;
-    final static String TEMP_CONSTANT= "1";
+   //constants for options 1-6
+    final static int C1 = 1;
+    final static int C2 = 2;
+    final static int C3 = 3;
+    final static int C4 = 4;
+    final static int C5 = 5;
+    final static int C6 = 6;
 
     public static void main(String[] args) throws FileNotFoundException{
         System.out.println(" ");
@@ -28,39 +28,39 @@ public class TicketMasterDriver {
         Scanner input = new Scanner(System.in);
         while(true){
             int choice= getInput(input);
-//            if(choice.equals(TEMP_CONSTANT)){//switch to compare to ints and uncomment
-//                System.out.println("Sorted by Name (A-Z)");
-//                ticket.sortAtoZ(ticket.getConcert());
-//                System.out.println(ticket);
-//            }
-//            else if(choice.equals("2")){
-//                System.out.println("Sorted by Name (Z-A)");
-//                ticket.sortZtoA(ticket.getConcert());
-//                System.out.println(ticket);
-//            }
-//            else if(choice.equals("3")){
-//                System.out.println("Sorted by Price (High-Low)");
-//                ticket.sortHightoLow(ticket.getConcert());
-//                System.out.println(ticket);
-//            }
-//            else if(choice.equals("4")){
-//                System.out.println("Sorted by Price (Low-High)");
-//                ticket.sortLowtoHigh(ticket.getConcert());
-//                System.out.println(ticket);
-//            }
-//            else if(choice.equals("5")){
-//                System.out.println("Pick a city");
-//                String val = input.nextLine();
-//                System.out.println("All concerts in " + val);
-//                System.out.println(ticket.searchFor(ticket.getConcert(), val));
-//            }
-//            else if(choice.equals("6")){
-//                System.out.println("Thank you.");
-//                break;
-//            }
-//            else{
-//                System.out.println(" Please enter a valid option\n");
-//            }
+           if(choice==C1){
+                System.out.println("Sorted by Name (A-Z)");
+                ticket.sortAtoZ(ticket.getConcert());
+                System.out.println(ticket);
+            }
+            else if(choice==C2){
+                System.out.println("Sorted by Name (Z-A)");
+                ticket.sortZtoA(ticket.getConcert());
+                System.out.println(ticket);
+            }
+            else if(choice==C3){
+                System.out.println("Sorted by Price (High-Low)");
+                ticket.sortHightoLow(ticket.getConcert());
+                System.out.println(ticket);
+            }
+            else if(choice==C4){
+                System.out.println("Sorted by Price (Low-High)");
+                ticket.sortLowtoHigh(ticket.getConcert());
+                System.out.println(ticket);
+            }
+            else if(choice==C5){
+                System.out.println("Pick a city");
+                String val = input.nextLine();
+                System.out.println("All concerts in " + val);
+                System.out.println(ticket.searchFor(ticket.getConcert(), val));
+            }
+            else if(choice==C6){
+                System.out.println("Thank you.");
+                break;
+            }
+            else{
+                System.out.println(" Please enter a valid option\n");
+            }
         }
     }
     public static int getInput(Scanner input){

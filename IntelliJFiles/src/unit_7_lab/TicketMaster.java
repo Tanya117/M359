@@ -1,7 +1,5 @@
 package unit_7_lab;
 
-
-
 import java.util.ArrayList;
 import java.io.File;
 import java.util.Scanner;
@@ -16,9 +14,8 @@ public class TicketMaster {
 
     public String toString() {
         String output = "";
-
         for(Show i: concert){
-            output += i+"\n";
+            output += concert.toString();
         }
         return output;
     }
@@ -54,6 +51,7 @@ public class TicketMaster {
                 arr.set(minIndex, temp);
             }
         }
+        System.out.println(arr);
     }
     public void sortZtoA(ArrayList<Show> arr){
         for(int i = 0; i<arr.size()-1; i++){
@@ -67,6 +65,7 @@ public class TicketMaster {
                 arr.set(minIndex, temp);
             }
         }
+        System.out.println(arr);
     }
     public void sortLowtoHigh(ArrayList<Show> arr){
         for(int i = 1; i< arr.size(); i++){
@@ -78,6 +77,7 @@ public class TicketMaster {
             }
             arr.set(position, valueToInsert);
         }
+        System.out.println(arr);
     }
     public void sortHightoLow(ArrayList<Show> arr){
         for(int i = 1; i< arr.size(); i++){
@@ -89,12 +89,13 @@ public class TicketMaster {
             }
             arr.set(position, valueToInsert);
         }
+        System.out.println(arr);
     }
 
     public ArrayList<Show> searchFor(ArrayList<Show> arr, String input){
         ArrayList<Show> n = new ArrayList<Show>();
         for(int i = 0; i< arr.size(); i++){
-            if(arr.get(i).getCity().equalsIgnoreCase(input)){
+            if(arr.get(i).getCity().equals(input)){
                 n.add(arr.get(i));
             }
         }
