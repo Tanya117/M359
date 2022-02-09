@@ -16,11 +16,11 @@ public class Show {
     }
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out a formatted show object
+     * @return formatted output for a Show object
      */
     public String toString() {
-        String output = date + "\t$" + price + "\t" + quantity + "\t" + city;
+        String output = date + "\t$" + price + "\t\t" + quantity + "\t\t" + city;
         int rem = 15 - city.length();
         for (int i = 0; i < rem; i++) {
             output += " ";

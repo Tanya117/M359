@@ -33,8 +33,9 @@ public class TicketMaster {
     }
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out shows ordered alphabetically from A-Z
+     * @return organized list of shows ordered alphabetically
+     * @Param arrayList for shows
      */
     public void sortAtoZ(ArrayList<Show> arr) {
         for (int i = 0; i < arr.size() - 1; i++) {
@@ -54,8 +55,9 @@ public class TicketMaster {
     }
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out shows ordered from Z-A
+     * @return organized list of shows ordered from Z-A
+     * @Param arrayList for shows
      */
     public void sortZtoA(ArrayList<Show> arr) {
         for (int i = 0; i < arr.size() - 1; i++) {
@@ -75,9 +77,11 @@ public class TicketMaster {
         }
     }
 
+
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out shows depending on their ticket prices (Low-High)
+     * @return organized list of shows ordered by price from Low to High
+     * @Param arrayList for shows
      */
     public void sortLowtoHigh(ArrayList<Show> arr) {
         for (int i = 1; i < arr.size(); i++) {
@@ -96,8 +100,9 @@ public class TicketMaster {
     }
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out shows depending on their ticket prices (High-Low)
+     * @return organized list of shows ordered by price from High to Low
+     * @Param arrayList for shows
      */
     public void sortHightoLow(ArrayList<Show> arr) {
         for (int i = 1; i < arr.size(); i++) {
@@ -117,8 +122,9 @@ public class TicketMaster {
     }
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out shows based on user input
+     * @return list of shows with the user's desired location
+     * @Param array list of shows, user input
      */
     public ArrayList<Show> searchFor(ArrayList<Show> arr, String input) {
         ArrayList<Show> n = new ArrayList<Show>();
@@ -139,16 +145,16 @@ public class TicketMaster {
 
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out the list of shows
+     * @return shows
      */
     public ArrayList<Show> getConcert() {
         return concert;
     }
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out concert objects in an organized manner
+     * @return formatted output for a concert object
      */
     public String toString() {
         String output = "";

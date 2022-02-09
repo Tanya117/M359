@@ -37,8 +37,8 @@ public class TicketMasterDriver {
     }
 
     /**
-     * Prints out a Student schedule and name
-     * @return formatted output for a Student object
+     * Prints out menu of options
+     * @return formatted output for menu
      */
     public static void pMenu() { //prints out menu
         System.out.println();
@@ -51,11 +51,21 @@ public class TicketMasterDriver {
         System.out.println("Enter a value between 1 and 6:");
     }
 
+    /**
+     * Prints out organizer
+     * @return formatted organizer for the shows
+     */
     public static void org(){
-        System.out.println("Date\t\tPrice\t\tQty\t\t\t\t\tCity");
-        System.out.println("------------------------------------------------------");
+        System.out.println("Date\t\tPrice\t\tQty\t\tCity\t\t\tPerformer");
+        System.out.println("-----------------------------------------------------------");
     }
 
+
+    /**
+     * Runs the program displaying shows based on user input
+     * @return Shows based on user's interactions
+     * @Param User input, TicketMaster
+     */
     public static int getTheChoice(Scanner input, TicketMaster ticket) {
         boolean isValidNumber = true;
 
