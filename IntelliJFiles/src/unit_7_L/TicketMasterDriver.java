@@ -25,12 +25,12 @@ public class TicketMasterDriver {
         System.out.println();
 
 
-        TicketMaster ticket = new TicketMaster();
-        ticket.readData();
+        TicketMaster t = new TicketMaster();
+        t.readData();
         Scanner input = new Scanner(System.in);
         int choice = 0;
         while (choice != Q) {
-            choice = getTheChoice(input, ticket);
+            choice = getTheChoice(input, t);
         }
 
 
@@ -66,7 +66,7 @@ public class TicketMasterDriver {
      * @return Shows based on user's interactions
      * @Param User input, TicketMaster
      */
-    public static int getTheChoice(Scanner input, TicketMaster ticket) {
+    public static int getTheChoice(Scanner input, TicketMaster t) {
         boolean isValidNumber = true;
 
         pMenu();
@@ -88,27 +88,27 @@ public class TicketMasterDriver {
                 System.out.println("Please type in a city");
                 input.nextLine();
                 String val = input.nextLine();
-                ticket.searchFor(ticket.getConcert(), val);
+                t.searchFor(t.getConcert(), val);
             }
             if (choice == AZ) {
                 System.out.println("Sorted by Name, A-Z");
                 org();
-                ticket.sortAtoZ(ticket.getConcert());
+                t.sortAtoZ(t.getConcert());
             }
             if (choice == ZA) {
                 System.out.println("Sorted by Name, Z-A");
                 org();
-                ticket.sortZtoA(ticket.getConcert());
+                t.sortZtoA(t.getConcert());
             }
             if (choice == LOW_HIGH) {
                 System.out.println("Sorted by Price, Low-High");
                 org();
-                ticket.sortLowtoHigh(ticket.getConcert());
+                t.sortLowtoHigh(t.getConcert());
             }
             if (choice == HIGH_LOW) {
                 System.out.println("Sorted by Price,High-Low");
                 org();
-                ticket.sortHightoLow(ticket.getConcert());
+                t.sortHightoLow(t.getConcert());
             }
             if (choice == Q) {
                 System.out.println("Goodbye!");
