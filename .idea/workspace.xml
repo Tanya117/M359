@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/IntelliJFiles/src/u" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
@@ -47,9 +47,22 @@
       <recent name="C:\Users\khosla1739\Documents\GitHub\M359\IntelliJFiles\src\unit_3\lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicketMasterDriver">
+  <component name="RunManager" selected="Application.TicketMasterDriver (1)">
     <configuration name="InsertionSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unit_7.InsertionSortExample" />
+      <module name="M359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Notes_7_3_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_7.Notes_7_3_Examples" />
       <module name="M359" />
       <extension name="coverage">
         <pattern>
@@ -74,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketMasterDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unit_7_L.TicketMasterDriver" />
+      <module name="M359" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit_7_L.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketMasterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unit_7_lab.TicketMasterDriver" />
       <module name="M359" />
@@ -87,39 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriviaDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u.TriviaDriver" />
-      <module name="M359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="u.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriviaTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unit_6_lab.TriviaTester" />
-      <module name="M359" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unit_6_lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketMasterDriver (1)" />
+        <item itemvalue="Application.Notes_7_3_Examples" />
         <item itemvalue="Application.TicketMasterDriver" />
         <item itemvalue="Application.InsertionSortExample" />
         <item itemvalue="Application.SelectionSortExample" />
-        <item itemvalue="Application.TriviaTester" />
-        <item itemvalue="Application.TriviaDriver (1)" />
       </list>
     </recent_temporary>
   </component>

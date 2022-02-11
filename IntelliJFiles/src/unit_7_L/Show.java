@@ -1,5 +1,4 @@
-package unit_7_lab;
-
+package unit_7_L;
 
 public class Show {
     private String date;
@@ -16,14 +15,17 @@ public class Show {
         this.quantity = quantity;
     }
 
-    public String toString(){
-
-        String output= date + "\t$" + price + "\t" + quantity + "\t" + city;
-        int rem= 15 - city.length();
-        for(int i=0; i<rem; i++){
-            output+=" ";
+    /**
+     * Prints out a formatted show object
+     * @return formatted output for a Show object
+     */
+    public String toString() {
+        String output = date + "\t$" + price + "\t\t" + quantity + "\t\t" + city;
+        int rem = 15 - city.length();
+        for (int i = 0; i < rem; i++) {
+            output += " ";
         }
-        output+=name;
+        output += name;
         return output;
     }
 
@@ -54,17 +56,4 @@ public class Show {
     public String getCity() {
         return city;
     }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
 }
-
