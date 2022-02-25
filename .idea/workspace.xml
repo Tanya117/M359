@@ -38,6 +38,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="unit_9" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/IntelliJFiles/src/u" />
       <recent name="$PROJECT_DIR$/IntelliJFiles/src/unit_lab" />
